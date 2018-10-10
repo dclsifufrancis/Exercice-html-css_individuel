@@ -1,51 +1,97 @@
-header {
-    margin: 0;
-    padding: 270px;
-    padding-right: 270px;
-    background-color: black;
-    color : white;
+* {
+  margin :0;
+  padding :0;
+}
+
+nav img {
+  width: 150px;
+  height: 45px;
+  margin: auto 0 auto 360px;
+}
+
+nav {
+  display: flex;
+  background-color: rgba(0,0,0,0.2);
+  justify-content: space-between;
+  height: 85px;
+  line-height: 85px;
+  position : fixed;
+  width: 100%;
+  z-index: 2;
 
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    width: 100%;
+nav ul {
+  display: flex;
+  margin: 0 360px 0 0;
+  list-style: none;
 }
 
-li {
-    box-flex: left;
+nav li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  height: 85px;
+  line-height: 85px;
+  text-decoration: none;
 }
 
-li a {
-    display: block;
-    color: white;
+nav li {
+  width: 150px;
+  height: 85px;
+  text-align: center
+}
+
+nav li a:hover {
+  background-color: red;
+}
+
+.background-section1 {
+  background-image: url("images/header.png");
+  width: 1920px;
+  height: 900px;
+}
+h2 {
+  text-align: center;
+  color: black;
+}
+
+.FORMATION {
+  display: flex;
+  color: black;
+  text-align: center;
+  
+}
+
+
+/* .topnav {
+    display: fixed;
+    color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+    font-size: 17px;
+    background: gray;
+  }
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
 
-.active {
+.topnav a:hover {
+    background-color:red;
+    color: white;
+  }
+  
+.topnav a.active {
     background-color: red;
+    color: white;
+  }
+
+h1 {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  background-color: gray;
 }
-</style>
-</head>
-<body>
 
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+.ENSEIGNEMENT {
+  background: yellow;
+  display: flex;
+} */
 
-<div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
