@@ -1,8 +1,10 @@
+/* pour éviter des marges appliquer par les navigateurs */
 * {
   margin :0;
   padding :0;
 }
 
+/* image du NAV uniquement */
 nav img {
   width: 150px;
   height: 45px;
@@ -20,78 +22,101 @@ nav {
   z-index: 2;
 
 }
-
+/* ul du Nav uniquement */
 nav ul {
   display: flex;
   margin: 0 360px 0 0;
   list-style: none;
 }
 
+/* li a du Nav uniquement */
 nav li a {
+  text-align: center;
   display: flex;
   color: white;
-  text-align: center;
   height: 85px;
   line-height: 85px;
+  width: 150px;
   text-decoration: none;
 }
 
-nav li {
-  width: 150px;
-  height: 85px;
-  text-align: center
-}
 
 nav li a:hover {
   background-color: red;
 }
 
+/* toute la classe sestion1 */
 .background-section1 {
   background-image: url("images/header.png");
   width: 1920px;
   height: 900px;
 }
+
+.btn {
+  background-color: crimson;
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+h1 p {
+  color:white;
+}
+/* changement de section *//* changement de section */
+
+
 h2 {
+  padding-top: 70px;
   text-align: center;
   color: black;
+}
+
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .FORMATION {
   display: flex;
-  color: black;
   text-align: center;
-  
+  justify-content: center;
+
+}
+
+.logo {
+  display:flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.article1 {
+  text-align: right;
+  padding-right: 24px;
+  padding-bottom: 115px;
 }
 
 
-/* .topnav {
-    display: fixed;
-    color: #f2f2f2;
-    text-align: center;
-    font-size: 17px;
-    background: gray;
-  }
-
-
-.topnav a:hover {
-    background-color:red;
-    color: white;
-  }
-  
-.topnav a.active {
-    background-color: red;
-    color: white;
-  }
-
-h1 {
-  padding: 60px;
-  text-align: center;
-  color: white;
-  background-color: gray;
+.article2 {
+  text-align: left;
+  padding-left : 24px ;
+  padding-bottom: 115px;
 }
 
-.ENSEIGNEMENT {
-  background: yellow;
-  display: flex;
-} */
+
+.background-section2 {
+  background-color: white;
+  width: 1920px;
+  height: 480px;
+}
+
+/* changement de section *//* changement de section */
+
+.background-section3 {
+  background-image: url("images/projet-collaboratif-bg.png");
+  width: 1920px;
+  height: 335px;
+  color:white;
+}
 
