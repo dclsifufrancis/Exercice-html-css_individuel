@@ -45,14 +45,26 @@ nav li a:hover {
   background-color: red;
 }
 
+
+
+.h1 {
+  color:white;
+  padding-top: 390px;
+  padding-bottom: 272px;
+}
+
+
 /* toute la classe sestion1 */
 .background-section1 {
   background-image: url("images/header.png");
   width: 1920px;
   height: 900px;
+  color:white;
+  text-align: center; 
 }
 
-.btn {
+
+.h1 > .btn {
   background-color: crimson;
   border: none;
   color: white;
@@ -60,9 +72,11 @@ nav li a:hover {
   font-size: 16px;
   cursor: pointer;
 }
-h1 p {
-  color:white;
-}
+
+
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 
 
@@ -74,22 +88,20 @@ h2 {
 
 .title {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin : auto auto auto auto;
+}
+
+h2 .logo {
+  display:block;
+  padding-bottom: 70px;
 }
 
 .FORMATION {
   display: flex;
   text-align: center;
   justify-content: center;
-
 }
 
-.logo {
-  display:flex;
-  justify-content: center;
-  padding-bottom: 70px;
-}
 
 .article1 {
   text-align: right;
@@ -113,10 +125,63 @@ h2 {
 
 /* changement de section *//* changement de section */
 
+h3 {
+  color:white;
+  text-align: center;  
+  padding-top: 72px;
+}
+
+.line {
+  display: block;
+  margin : auto auto auto auto;
+}
+
+.ENSEIGNEMENT{
+  display: flex;
+  justify-content: center;
+  padding-top: 72px;
+  text-align : center;
+  align-content: space-around;
+}
+
+.ENSEIGNEMENT > div {
+  width: 1200px;
+  text-align: center;
+  padding-bottom: 70px
+}
+
 .background-section3 {
   background-image: url("images/projet-collaboratif-bg.png");
   width: 1920px;
-  height: 335px;
+  height: 455px;
   color:white;
 }
 
+/* changement de section *//* changement de section */
+
+.background-section4 {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 1920px;
+  height: 567px;
+  color  : white;
+
+}
+
+.À-CHACUN-SONMÉTIER {
+  display: flex;
+  padding-top: 40px;
+}
+
+.video {
+  display: block;
+  margin: auto 360px 114px auto;
+}
+
+.bouton {
+  background-color: transparent ;
+  border: 1px solid;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
