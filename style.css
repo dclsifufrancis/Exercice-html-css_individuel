@@ -1,4 +1,4 @@
-/* pour éviter des marges appliquer par les navigateurs */
+pour éviter des marges appliquer par les navigateurs
 * {
   margin :0;
   padding :0;
@@ -18,12 +18,13 @@ nav {
   height: 85px;
   line-height: 85px;
   position : fixed;
-  width: 100%;
+  width: 1920px;
   z-index: 2;
 
 }
 /* ul du Nav uniquement */
 nav ul {
+  text-align: center;
   display: flex;
   margin: 0 360px 0 0;
   list-style: none;
@@ -44,8 +45,6 @@ nav li a {
 nav li a:hover {
   background-color: red;
 }
-
-
 
 .h1 {
   color:white;
@@ -79,10 +78,15 @@ nav li a:hover {
 /* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 
+.section2 {
+  width: 1920px;
+  height: 481px;
+  background-color:white;
+}
 
 h2 {
-  padding-top: 70px;
   text-align: center;
+  padding-top: 70px;
   color: black;
 }
 
@@ -91,38 +95,33 @@ h2 {
   margin : auto auto auto auto;
 }
 
-h2 .logo {
-  display:block;
-  padding-bottom: 70px;
-}
-
-.FORMATION {
-  display: flex;
-  text-align: center;
+.background-section2 {
+  display :flex;
+  background-color: white;
   justify-content: center;
 }
 
-
+/* 
 .article1 {
-  text-align: right;
-  padding-right: 24px;
-  padding-bottom: 115px;
+  text-align: left;
+  padding-left: 0px;
 }
-
 
 .article2 {
+  text-align: center;
+  padding-top: 70px;
+
+} 
+
+.article3 {
   text-align: left;
   padding-left : 24px ;
-  padding-bottom: 115px;
-}
+}  */
 
-
-.background-section2 {
-  background-color: white;
-  width: 1920px;
-  height: 480px;
-}
-
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 
 h3 {
@@ -142,6 +141,8 @@ h3 {
   padding-top: 72px;
   text-align : center;
   align-content: space-around;
+  margin: auto 360px auto 360px;
+
 }
 
 .ENSEIGNEMENT > div {
@@ -153,10 +154,14 @@ h3 {
 .background-section3 {
   background-image: url("images/projet-collaboratif-bg.png");
   width: 1920px;
-  height: 455px;
+  height: 445px;
   color:white;
 }
 
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 
 .background-section4 {
@@ -164,24 +169,137 @@ h3 {
   width: 1920px;
   height: 567px;
   color  : white;
-
 }
 
-.À-CHACUN-SONMÉTIER {
+.À-CHACUN-SON-MÉTIER {
   display: flex;
-  padding-top: 40px;
+  padding-left: 360px;
+  padding-right: 360px;
+  justify-content: space-between;
 }
 
-.video {
-  display: block;
-  margin: auto 360px 114px auto;
-}
 
-.bouton {
-  background-color: transparent ;
-  border: 1px solid;
+.À-CHACUN-SON-MÉTIER > .btn {
+  border: 2px solid white;
   color: white;
-  padding: 14px 28px;
-  font-size: 16px;
   cursor: pointer;
+  background-color: Transparent;
+  width: 200px;
+  height: 50px;
+}
+
+
+
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+
+.background-section5 {
+  background-color: white;
+  width: 1920px;
+  height: 451px;
+  color  : black;
+}
+
+.À-CHACUN-SON-PROJET {
+  display :flex;
+  padding-top: 77px;
+  padding-left: 360px;
+  padding-right: 360px;
+  justify-content: space-between;
+}
+
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+
+.background-section6 {
+  padding-top: 62px;
+  background-image: url(images/projet-bg1.png);
+  width: 1920px;
+  height: 296px;
+  color:white;
+  text-align: center;
+}
+
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+
+.background-section7 {
+  background-color:white;
+  width: 1920px;
+  height: 832px;
+  color: black;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+
+}
+
+.NOS-CENTRES-DE-FORMATION {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 360px;
+  padding-right: 360px;
+  justify-content: space-between;
+  padding-top: 180px;
+  padding-bottom: 70px;
+}
+
+
+
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+
+
+.background-section8 {
+  padding-left: 360px;
+  background-image: url(images/temoignages-bg.png);
+  width: 1920px;
+  height: 604px;
+  color: white;
+  padding-top: 71px;
+}
+
+.TÉMOIGNAGES  > .btn {
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  background-color: Transparent;
+  width: 225px;
+  height: 50px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 26px;
+  padding-right: 27px;
+}
+
+.container0 {
+  display: ;
+}
+
+
+
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+/* changement de section *//* changement de section */
+
+.background-section9 {
+  background-color:red;
+  width: 1920px;
+  height: 786px;
+  color: white;
+  padding-top: 71px;
 }
