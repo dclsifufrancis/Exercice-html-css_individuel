@@ -10,9 +10,13 @@ nav img {
   height: 45px;
   margin: auto 0 auto 360px;
 }
-
+body {
+  width: 1920px;
+}
 nav {
+  font-family: Opensans;
   display: flex;
+  align-items: center;
   background-color: rgba(0,0,0,0.2);
   justify-content: space-between;
   height: 85px;
@@ -75,8 +79,6 @@ nav li a:hover {
 
 /* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
 
 .section2 {
   width: 1920px;
@@ -92,35 +94,26 @@ h2 {
 
 .title {
   display: block;
-  margin : auto auto auto auto;
+  margin : auto;
 }
 
 .background-section2 {
+  padding-top: 25px;
   display :flex;
   background-color: white;
   justify-content: center;
+  }
+
+.background-section2 ul {
+    list-style: none;
+  }
+
+.bloc1 {
+    padding-right: 23px;
+  }
+.bloc3 {
+  padding-left: 24px;
 }
-
-/* 
-.article1 {
-  text-align: left;
-  padding-left: 0px;
-}
-
-.article2 {
-  text-align: center;
-  padding-top: 70px;
-
-} 
-
-.article3 {
-  text-align: left;
-  padding-left : 24px ;
-}  */
-
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 
@@ -158,9 +151,7 @@ h3 {
   color:white;
 }
 
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
+
 /* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 
@@ -189,10 +180,6 @@ h3 {
 }
 
 
-
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 
@@ -211,9 +198,10 @@ h3 {
   justify-content: space-between;
 }
 
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
+.background-section5 ul {
+  list-style: none;
+}
+
 /* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 
@@ -226,9 +214,7 @@ h3 {
   text-align: center;
 }
 
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
+
 /* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 
@@ -254,21 +240,15 @@ h3 {
 }
 
 
-
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 
 
 .background-section8 {
-  padding-left: 360px;
   background-image: url(images/temoignages-bg.png);
   width: 1920px;
   height: 604px;
   color: white;
-  padding-top: 71px;
 }
 
 .TÉMOIGNAGES  > .btn {
@@ -284,22 +264,43 @@ h3 {
   padding-right: 27px;
 }
 
-.container0 {
-  display: ;
-}
 
-
-
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
-/* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 /* changement de section *//* changement de section */
 
 .background-section9 {
+  padding-top: 71px;
   background-color:red;
   width: 1920px;
   height: 786px;
   color: white;
-  padding-top: 71px;
+}
+
+.rso {
+  width: 1920px;
+  height: 154px;
+  background-color: gray;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#haut {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+#formHaut input {
+  width: 45%;
+  border: none;
+  background-color: white;
+  margin :auto;
+
+}
+
+#formHaut :nth-child(3) {
+  width: 90.5%;
 }

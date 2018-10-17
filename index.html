@@ -18,7 +18,7 @@
             <li><a href="#La formation">LA FORMATION</a></li>
             <li><a href="#Contact">CONTACT</a></li>
             <li><a href="#Actualité">ACTUALITÉ</a></li>
-            <li><a href="#Inscription"class="active">INSCRIPTION</a></li>
+            <li><a href="#Inscription">INSCRIPTION</a></li>
         </ul>  
     </nav>
     <section-1>     <!-- div background pour img de fond en css -->
@@ -39,7 +39,7 @@
             <h2>FORMATION LABELLISÉE GRANDE ÉCOLE DU NUMÉRIQUE</h2><br>
             <img class="title"src="images/Title line.png">
                 <div class="background-section2">
-                    <div class="article1">
+                    <div class="bloc1">
                         <p>La Grance Ecole du Numérique est un réseau de plus de 400 formations aux<br>
                         métiers du numérique. Elle favorise l'inclusion et répond aux besoins des<br>
                         recruteurs en compétences numérique</P>
@@ -47,10 +47,10 @@
                         <p>Les 14 écoles Access Code School ont été labéllisées en tant que " Fabrique de<br>
                         la Grande École du Numérique".</p>
                     </div>                    
-                    <div class="article2">
-                        <img class="logo"src="images/GEDN_black.png">
+                    <div class="bloc2">
+                        <img src="images/GEDN_black.png">
                     </div>
-                    <div class="article3">
+                    <div class="bloc3">
                         <p>La Grande École du Numérique c'est <strong>répondre au besoin d'emploi     <br>
                         secteur du numérique.</strong></p>
                         <br>
@@ -206,14 +206,15 @@
                                                                     
     <section-8>
         <div class="background-section8">
-            <div class="container0">
-                <div class="container1"><h5>TÉMOIGNAGES</h5>
-                    <div class="container2">
-                        <img src="images/quote.png">
-                    </div>
-                    <div class="lineblanc">
-                        <img src="images/Title line_blanc.png">
-                    </div>
+            <div class="section8">
+                <div>
+                    <h5>TÉMOIGNAGES</h5>
+                </div>
+                <div>
+                    <img src="images/quote.png">
+                </div>
+                <div>
+                    <img src="images/Title line_blanc.png">
                 </div>
             </div>
             <div class="TÉMOIGNAGES">
@@ -232,17 +233,22 @@
     <section-9>   
         <div class="background-section9">
             <h6>CONTACT</h6>
+            <img class="lineblanc"src="images/Title line_blanc.png">
                 <div class="CONTACT">
-                    <form name="form-example" action="" >
-                        <div class="form-example">
-                            <input type="text">
-                            <input type="text">
-                            <input type="email">
-                            <input type="number">
-                            <input type="text">
-                        </div>
-                        <div class="form-example">
-                            <input type="text" name="VILLE" id="VILLE" required>
+                    <form name="contactForm" action="">
+                        <div id="haut">
+                            <div id="formHaut">
+                                <input type="text">
+                                <input type="text">
+                                <input type="email">
+                                <input type="number">
+                                <input type="text">
+                            </div>
+                            <div>
+                                <P>Devenez un professionnel du web et rejoignez une communauté d'élèves<br>
+                                    motivés aux parcours différents. Les inscriptions sont ouvertes.</P>
+                                <p>Prochaines promotions courant 2018, <strong>inscrivez-vous dès maintenant !</strong></P>
+                            </div>
                         </div>
                         <div>
                             <textarea name="Message" id="" cols="30" rows="10"></textarea>
@@ -250,30 +256,19 @@
                         </div>
                     </form>
                 </div>
-        <div class="texte1">
-                        <P>Devenez un professionnel du web et rejoignez une communauté d'élèves<br>
-                        motivés aux parcours différents. Les inscriptions sont ouvertes.
-                        <br>
-                        <br>
-                        Prochaines promotions courant 2018, <strong>inscrivez-vous dès maintenant !</strong></P>
-        </div>
         </div>
     </section-9>
-                                                                        
-</body>
-
-<footer>
-    <div>
+    <section-10>
         <img src="images/logo_onlineformapro.png" alt="Logo Onlineformapro">
         <img src="images/logo-aformac.png" alt="Logo Aformac">
         <!-- <img src="#" alt="Logo ACCESS CODE SCHOOL"> -->
         <img src="images/logo-access-robotique-centre-de-ressources-3.png" alt="Logo ACCES ROBOTIQUE CENTRE DE RESSOURCES">
+    </section-10>
     </div>
-    
-    <div>
+</body>
+<footer>  
+    <div class="rso">
         <a href="#Onlineformapro | Mentions légales">Onlineformapro | Mentions légales</a>
-        
-    </div>
-    
+    </div> 
 </footer>
 </html>
